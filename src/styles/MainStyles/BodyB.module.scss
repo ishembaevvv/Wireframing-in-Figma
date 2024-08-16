@@ -1,0 +1,48 @@
+$white_color: #fff;
+$sky_color: #18a0fb;
+
+.container {
+	width: 100%;
+	height: 948px;
+	background: $white_color;
+
+	.content {
+		position: relative;
+		left: 80px;
+		top: 120px;
+	}
+}
+
+.title {
+	filter: drop-shadow(5px 5px 10px #000000);
+}
+
+.body_render {
+	margin: 50px 0;
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 50px;
+
+	div {
+		width: 600px;
+
+		h3 {
+			font-weight: 600;
+			margin-right: 415px;
+		}
+
+		p {
+			overflow-wrap: break-word;
+		}
+
+		button {
+			margin-top: 40px;
+			width: 130px;
+			height: 40px;
+			border: 2px solid $sky_color;
+			border-radius: 5px;
+			background: $white_color;
+			color: $sky_color;
+		}
+	}
+}

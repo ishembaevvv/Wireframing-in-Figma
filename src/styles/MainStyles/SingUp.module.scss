@@ -1,0 +1,33 @@
+$sky_color: #18A0FB;
+$white_color: #ffffff;
+
+.container {
+	height: 100%;
+	height: 340px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: #e9e9e9;
+
+	p {
+		font-size: 24px;
+		font-weight: 300;
+	}
+
+	button {
+		width: 192px;
+		height: 52px;
+		border: 2px solid $sky_color;
+		border-radius: 5px;
+		
+		&:nth-of-type(1) {
+			background: $sky_color;
+			color: $white_color;
+			margin-left: 250px;
+		}
+		&:last-child {
+			background: $white_color;
+			color: $sky_color;
+		}
+	}
+}

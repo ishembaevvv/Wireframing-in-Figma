@@ -1,0 +1,70 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+.container h1 {
+  margin-left: 50px;
+}
+.container .box {
+  width: 622px;
+  height: 439px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid #000;
+  border-radius: 5px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+.container .box .sing {
+  margin-left: 50px;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .box .sing div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 500px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.container .box .sing div input {
+  width: 245px;
+  height: 40px;
+}
+.container .box .sing input {
+  width: 494px;
+  height: 40px;
+}
+.container .box button {
+  margin-left: 50px;
+  width: 130px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background: #18A0FB;
+  color: #fff;
+}
